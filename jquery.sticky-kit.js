@@ -99,7 +99,7 @@
         if (spacer) {
           spacer.css({
             width: outer_width(elm),
-            height: height,
+            height: parent_height,
             display: elm.css("display"),
             "vertical-align": elm.css("vertical-align"),
             "float": el_float
